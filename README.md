@@ -6,19 +6,16 @@ Welcome to the CNN Projects repository! This repository contains a collection of
 
 - [Introduction](#introduction)
 - [Projects](#projects)
-  - [Project 1: CNN for Image Classification](#project-1-cnn-for-image-classification)
-  - [Project 2: Transfer Learning with CNNs](#project-2-transfer-learning-with-cnns)
-  - [Project 3: Data Augmentation Techniques](#project-3-data-augmentation-techniques)
-  - [Project 4: CNN for Object Detection](#project-4-cnn-for-object-detection)
-  - [Project 5: Brain tumor-detection filters ](#project-5-brain-tumor-detection-filters )
-  - [Project 6: Brain tumor-detection filters ](#project-6-plant-village-disease-classification)
+  - [Project 1: CNN Feature Extraction](cnnfeatureextraction3.ipynb)
+  - [Project 2: Transfer Learning with CNNs](Finetuning4.ipynb)
+  - [Project 3: Data Augmentation Techniques](cnnDATAinm2.ipynb)
+  - [Project 4: CNN fASTapi](cnnFastAPI1.ipynb)
+  - [Project 5: Brain tumor-detection filters ](brain-tumor-detection-filters-cnn.ipynb)
+  - [Project 6: Plant disease classification ](plant-village-disease-classification.ipynb)
   - [Project 7: Arabic handwritten recognition ](kenzy-arabic-handwritten-recognition.ipynb)
+  
 - [Requirements](#requirements)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
 
 ## Introduction
 
@@ -26,34 +23,26 @@ This repository is dedicated to showcasing various projects that involve Convolu
 
 ## Projects
 
-### Project 1: CNN for Image Classification
-
-In this project, a CNN is built from scratch to classify images from a standard dataset. The project includes:
-- Data preprocessing
-- Model architecture design
-- Training and evaluation of the model
-- Visualization of results
+### Project 1: CNN Feature Extraction
+This project focuses on using Convolutional Neural Networks for feature extraction. The extracted features are then utilized for various downstream tasks such as classification or clustering. This approach leverages the powerful ability of CNNs to capture spatial hierarchies in data.
 
 ### Project 2: Transfer Learning with CNNs
-
-This project explores the use of transfer learning to leverage pre-trained models for specific tasks. The project covers:
-- Fine-tuning a pre-trained model
-- Customizing the final layers for a new task
-- Performance comparison with a model trained from scratch
+In this project, transfer learning techniques are applied to adapt pre-trained CNN models for new tasks. By fine-tuning specific layers, the model can achieve high performance on tasks with limited data, demonstrating the efficiency of transfer learning in leveraging existing knowledge.
 
 ### Project 3: Data Augmentation Techniques
+This project explores various data augmentation methods to enhance the generalization ability of CNN models. Techniques like rotation, flipping, and scaling are applied to the training data, helping to reduce overfitting and improve model robustness.
 
-Here, various data augmentation techniques are applied to improve the generalization of CNN models. The project includes:
-- Implementation of different augmentation methods
-- Impact analysis on model performance
-- Best practices for data augmentation in CNNs
+### Project 4: CNN with FastAPI
+In this project, a CNN model is integrated with a FastAPI framework to create a web application. The project demonstrates how to deploy a machine learning model in a production environment, enabling real-time predictions through API calls.
 
-### Project 4: CNN for Object Detection
+### Project 5: Brain Tumor Detection Filters
+This project involves developing CNN-based filters specifically designed for detecting brain tumors in medical images. The model is trained to identify and localize tumors, providing a tool for aiding in medical diagnostics.
 
-This project focuses on object detection using CNNs. Key components of the project are:
-- Dataset preparation for object detection
-- Implementation of a CNN-based object detection model
-- Evaluation metrics for object detection
+### Project 6: Plant Disease Classification
+This project uses CNNs to classify diseases in plants based on image data. By training the model on a dataset of diseased and healthy plant images, the model can accurately diagnose various plant diseases, assisting in agricultural management.
+
+### Project 7: Arabic Handwritten Recognition
+This project focuses on recognizing handwritten Arabic characters using CNNs. The model is trained on a dataset of Arabic handwriting, achieving high accuracy in character recognition, which can be useful for applications in digitizing handwritten documents.
 
 ## Requirements
 
